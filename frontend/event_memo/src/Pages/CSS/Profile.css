@@ -1,0 +1,37 @@
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.join-request{
+    margin: 20px;
+}
+.join-request li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.join-request li strong{
+    margin-right: 10px;
+}
+.join-request li button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.join-request li h3{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

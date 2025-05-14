@@ -1,0 +1,89 @@
+.event-creation-container{
+   width: 100%;
+   height: 100%;
+}
+.event-creation-container h1{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.form-section{
+    width: clamp(350px, 50%, 700px);
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgb(184, 184, 182);
+    margin-bottom: 20px;
+
+}
+.form-group label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.form-group input{
+    height: 50px;
+    width: 80%;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+}
+.form-group textarea{
+    height: 100px;
+    width: 80%;
+    font-size: 17px;
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+.form-time{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.displaydatetime{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form-time label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.displaydatetime input{
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}

@@ -1,0 +1,107 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.register-container{
+    width: clamp(300px,50%, 500px);
+    height: 500px;
+    color: black;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.register-form h2{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.form-group label{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-top: -7px;
+
+}
+.form-group input{
+    width: 80%;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 0%;
+}
+.btn-submite{
+    width: 80%;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+    outline: none;
+    background-color: gold;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* .details-register{
+    margin: 10px;
+} */
+.details-register p{
+    text-align: start;
+    font-size: clamp(17px, 50%, 25px);
+    margin-left: 10%;
+    margin-top: 0%;
+}
+.details-login a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+.message{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+.image-plan{
+    width: 700px;
+    height: 500px;
+}
+.register-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:760px){
+    .login-container{
+        width: clamp(300px,50%, 500px);
+        height: auto;
+        background-color: rgb(210, 213, 216);
+        box-shadow: 10px 0px 10px rgb(134, 134, 134);
+    }
+    .image-plan{
+        display: none;
+    }
+}

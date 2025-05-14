@@ -1,0 +1,18 @@
+.sid-container{
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    position: relative;
+    margin-top: -10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.link-side{
+    display: block;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}

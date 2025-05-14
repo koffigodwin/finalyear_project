@@ -1,0 +1,15 @@
+.event-container{
+    margin-top: 20px;
+}
+.event-container h1, h2{
+    text-align: center;
+    font-weight: 500;
+
+}
+.upcoming-event{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}

@@ -1,0 +1,58 @@
+.upload-btn{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 10px;
+}
+.event-upload{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-top: 20px;
+}
+.event-upload h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+.event-upload p{
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.fileuplode{
+    border: 2px solid black;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 30px;
+}
+.upload{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 30px;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: 2px solid blue;
+    margin-top: 20px;
+    position: relative;
+    top: 100%;
+    transform: translate(-50%);
+    
+}

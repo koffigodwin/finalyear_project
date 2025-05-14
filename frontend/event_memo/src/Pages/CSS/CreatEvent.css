@@ -1,0 +1,82 @@
+.create-event{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;   
+}
+.create-event h1{
+    font-size: 5rem;
+    margin: 2rem;
+    font-weight: 700;
+}
+.create-event p{
+    font-size: 20px;
+    margin: 20px;
+}
+.button-place{
+    margin-top: 3rem;
+}
+.creation-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    border: 2px solid rgb(34, 190, 34);
+    font-weight: 700;
+    background-color: rgb(34, 190, 34);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.page-title{
+    text-align: center;
+    margin: 30px;
+    font-weight: 700;
+}
+.manage-sub-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 20px;
+}
+.details-update{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.approve-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(34, 190, 34);
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.decline-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(255, 0, 0);
+    padding: 3px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.photoapproval{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+@media screen and (max-width:700px){
+    .create-event h1{
+        font-size: 2.5rem;
+    }
+    .creation-btn{
+        font-size: 1.8rem;
+        padding: 7px;
+    }
+}
